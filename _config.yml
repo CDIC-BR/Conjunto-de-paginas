@@ -27,8 +27,7 @@ logo: "/assets/CNBB.png" # Caminho do seu logo
 search_enabled: true
 
 search_placeholder: "Pesquisar Glossário CDIC-BR"
-
-color_scheme: custom_teste
+ 
 # -----------------------------------
 
 # Configurações de Front Matter
@@ -48,8 +47,6 @@ defaults:
       layout: "page"
  
 # -----------------------------------
-
-
 
 # Navegação (Sidebar) - Sua versão
 
