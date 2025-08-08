@@ -1,8 +1,76 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
 
+# -----------------------------------
+# Configurações do site
+# -----------------------------------
+title: Glossário CDIC-BR
+description: Seu site em Jekyll com o tema Just the Docs.
+theme: just-the-docs
 url: https://just-the-docs.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# -----------------------------------
+# Configurações do logo
+# -----------------------------------
+logo: "/assets/CNBB.png"
+
+# -----------------------------------
+# Parser de Markdown
+# -----------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  parse_block_html: true # Permite HTML dentro do Markdown
+  syntax_highlighter_opts:
+    disable: true
+highlighter: rouge
+
+# -----------------------------------
+# Configurações de Front Matter Padrão (Defaults)
+# -----------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page" # Corrigido para 'page'
+
+# -----------------------------------
+# Configurações de Navegação (Sidebar)
+# -----------------------------------
+nav_pages:
+  - title: "Home"
+    url: "/index.html"
+  - title: "Glossário"
+    url: "/glossario.html"
+  - title: "CNBB"
+    url: "/cnbb.html"
+  - title: "Fiéis"
+    url: "/fieis.html"
+  - title: "Formação Clerical e Laical"
+    url: "/formacaoclericallaical.html"
+  - title: "IVC e SVA"
+    url: "/ivc_sva.html"
+  - title: "Área Pessoal"
+    url: "/areapessoal.html"
+    subpages:
+      - title: "Configuração"
+        url: "/configuracao.html"
+      - title: "Dashboard"
+        url: "/dashboard.html" # Aspas duplas adicionadas
+
+# -----------------------------------
+# Configurações da Barra de Pesquisa
+# -----------------------------------
+search_enabled: true
+search_placeholder: "Pesquisar Glossário CDIC-BR"
+
+# -----------------------------------
+# Opções Extras
+# -----------------------------------
+heading_anchors: true
+compress_html:
+  clippings: all
+  comments: false # Corrigido para 'false'
+  endings: all
+  startings: [head, body]
