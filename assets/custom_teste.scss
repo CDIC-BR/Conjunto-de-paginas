@@ -1,8 +1,11 @@
+// Herda todas as cores padrão para evitar erros
 @import "color_schemes/default";
 
-// Sobrescreva apenas o que quiser
-$body-text-color: #1A7CC3; // cor padrão do texto
-$link-color: #0056b3;      // links
-$nav-text-color: #000000;  // menu lateral
-$nav-child-link-color: #444444;
-$nav-active-text-color: #ff6600;
+// Muda cor do texto do menu lateral
+$nav-text-color: #ff6600; // Laranja
+$nav-link-color: #ff6600;
+$nav-link-hover-color: #cc5200;
+
+// Opcional: mudar cor de fundo
+$body-background-color: #f9f9f9;
+$sidebar-color: #ffffff;
