@@ -5,7 +5,7 @@ url: "https://cdic-br.github.io"
 repository: cdic-br/glossario
 
 theme: just-the-docs
-color_scheme: custom   # <-- aqui você define o esquema de cores customizado
+color_scheme: custom_teste   # <-- aqui você define o esquema de cores customizado
 logo: "/assets/CNBB.png"
 search_enabled: true
 search_placeholder: "Pesquisar Glossário CDIC-BR"
